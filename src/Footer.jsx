@@ -4,6 +4,7 @@ import icon19 from "../src/assets/icon7.png";
 import icon20 from "../src/assets/icon8.png";
 
 const Footer = () => {
+  
   return (
     <div className="footer">
       <p>If you prefer not to receive emails like this, you may unsubscribe</p>
@@ -11,7 +12,11 @@ const Footer = () => {
       <div className="social-icons">
         <img src={icon18} alt="Facebook" />
         <img src={icon19} alt="Instagram" />
-        <img src={icon20} alt="LinkedIn" />
+        <img
+          src={icon20}
+          alt="LinkedIn"
+          
+        />
       </div>
     </div>
   );

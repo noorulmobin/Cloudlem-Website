@@ -1,7 +1,7 @@
 import React from "react";
-import icon8 from "../src/assets/Image.jpg";
-import icon9 from "../src/assets/Image1.jpg";
-import icon10 from "../src/assets/Image3.jpg";
+import icon8 from "../src/assets/image.png";
+import icon9 from "../src/assets/image1.png";
+import icon10 from "../src/assets/image3.png";
 import "./App.css";
 
 const Details = () => {
@@ -9,21 +9,23 @@ const Details = () => {
     <div>
       <div id="cost">
         <ul>
-            <li>
-          Cloudlem is an emerging DevOps consulting company with a <br />
-          wealth of experience in supporting customers globally to <br />
-          implement DevOps practices. </li>
           <li>
-          Cloudlem's expertise includes cloud migration, maintenance, and
-          <br />
-          supporting customers in building scalable and highly available
-          <br />
-          architecture on well-known cloud service providers such as AWS, <br />
-          Azure, GCP, and more
+            Cloudlem is an emerging DevOps consulting company with a <br />
+            wealth of experience in supporting customers globally to <br />
+            implement DevOps practices.{" "}
+          </li>
+          <li>
+            Cloudlem's expertise includes cloud migration, maintenance, and
+            <br />
+            supporting customers in building scalable and highly available
+            <br />
+            architecture on well-known cloud service providers such as AWS,{" "}
+            <br />
+            Azure, GCP, and more
           </li>
         </ul>
         <div id="cost-para">
-          <img src={icon8} alt="Reduce operational costs" />
+          <img src={icon8} width="81px" alt="Reduce operational costs" />
           <p>
             Reduce operational <br />
             costs
@@ -33,7 +35,7 @@ const Details = () => {
 
       <div id="customer">
         <div id="customer-para">
-          <img src={icon9} alt="Provide an awesome customer experience" />
+          <img src={icon9} alt="Provide an awesome customer experience" width="91px" />
           <p>
             Provide an awesome <br />
             customer experience
@@ -53,7 +55,7 @@ const Details = () => {
           providing customers with timely and efficient support.
         </p>
         <div id="scalibility-para">
-          <img src={icon10} alt="Scalability and 24x7 availability" />
+          <img src={icon10} alt="Scalability and 24x7 availability"  width="81px"/>
           <p>
             Scalability and 24x7 <br />
             availability

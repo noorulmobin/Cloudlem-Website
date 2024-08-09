@@ -1,9 +1,15 @@
 import React from "react";
 
 const Contact = () => {
+  const handleClick = () => {
+    window.open(
+      "https://www.https://www.linkedin.com/company/cloudlem/.com",
+      "_blank"
+    );
+  };
   return (
     <div id="btn">
-      <button>contact us</button>
+      <button onClick={handleClick}>contact us</button>
     </div>
   );
 };

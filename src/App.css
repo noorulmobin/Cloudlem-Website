@@ -12,12 +12,38 @@
   height: 10vh;
   background-color: #eff6ff;
 }
+
 .header {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   align-items: center;
-  padding: 15% 0;
+  padding: 11% 0;
+}
+.header img {
+  display: flex;
+  flex-wrap: wrap;
+  width: 386px;
+  height: 377px;
+  top: 61px;
+  left: 24px;
+  gap: 0px;
+  opacity: 0px;
+}
+@media (max-width: 320px) {
+  .header img {
+    display: flex;
+    flex-wrap: wrap;
+    width: 286px;
+    height: 277px;
+    top: 61px;
+    left: 24px;
+    gap: 0px;
+    opacity: 0px;
+  }
+  .header p {
+    text-align: center;
+  }
 }
 
 .header p {
@@ -94,6 +120,7 @@
   font-weight: 500;
   line-height: 15.73px;
   text-align: center;
+  color: #1e293b;
 }
 #card p {
   display: flex;
@@ -105,6 +132,7 @@
   font-weight: 500;
   line-height: 26.06px;
   text-align: center;
+  color: #64748b;
 }
 
 #cards2 {
@@ -184,12 +212,14 @@
   display: flex;
   justify-content: space-around;
   flex-direction: column;
-  align-items: center;
-  text-align: center;
+  /* align-items: center; */
+  text-align: left;
   flex-wrap: wrap;
   font-family: Roboto;
   font-size: 18px;
   font-weight: 500;
+  line-height: 21.78px;
+  color: #777777;
 }
 #cost-para {
   display: flex;
@@ -207,6 +237,7 @@
   font-family: Roboto;
   font-size: 18px;
   font-weight: 700;
+  color: #2d2d2d;
 }
 
 #customer {
@@ -220,10 +251,12 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  text-align: center;
+  text-align: left;
   font-family: Roboto;
   font-size: 18px;
   font-weight: 500;
+  line-height: 21.78px;
+  color: #777777;
 }
 
 #customer-para {
@@ -237,7 +270,7 @@
 #customer-para p {
   display: flex;
   justify-content: center;
-
+  color: #2d2d2d;
   flex-wrap: wrap;
   font-family: Roboto;
   font-size: 18px;
@@ -255,11 +288,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
+  text-align: left;
   flex-wrap: wrap;
   font-family: Roboto;
+  color: #777777;
   font-size: 18px;
   font-weight: 500;
+  line-height: 21.78px;
 }
 
 #scalibility-para {
@@ -279,6 +314,7 @@
   font-family: Roboto;
   font-size: 18px;
   font-weight: 700;
+  color: #2d2d2d;
 }
 
 @media (max-width: 320px) {
@@ -289,6 +325,35 @@
   #cost {
     display: flex;
     flex-wrap: wrap;
+  }
+  #scalibility p {
+    text-align: center;
+  }
+  #customer p {
+    text-align: center;
+  }
+  #cost ul {
+    text-align: center;
+  }
+}
+
+@media (max-width: 425px) {
+  #details {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #cost {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #scalibility p {
+    text-align: center;
+  }
+  #customer p {
+    text-align: center;
+  }
+  #cost ul {
+    text-align: center;
   }
 }
 

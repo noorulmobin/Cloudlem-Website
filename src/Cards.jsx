@@ -24,7 +24,7 @@ const Cards = () => {
         </div>
 
         <div id="card">
-          <img src={icon3} alt="DevOps" />
+          <img src={icon3} alt="DevOps" width="81px"/>
           <h2>Multi Cloud Services</h2>
           <p>
             Multi-cloud services enable <br />
@@ -35,7 +35,7 @@ const Cards = () => {
           </p>
         </div>
         <div id="card">
-          <img src={icon4} alt="DevOps" />
+          <img src={icon4} alt="DevOps" width="81px"/>
           <h2>Product Design & Development</h2>
           <p>
             Product design and development <br />
@@ -47,7 +47,7 @@ const Cards = () => {
       </div>
       <div id="cards2">
         <div id="card">
-          <img src={icon5} />
+          <img src={icon5} width="95px" />
           <h2>Server Managment</h2>
           <p>
             DevOps is a set of practices tools <br />
@@ -59,7 +59,7 @@ const Cards = () => {
         </div>
 
         <div id="card">
-          <img src={icon6} />
+          <img src={icon6} width="81px"/>
           <h2>Data Base Administration</h2>
           <p>
             Multi-cloud services enable <br />
@@ -70,7 +70,7 @@ const Cards = () => {
           </p>
         </div>
         <div id="card">
-          <img src={icon7} />
+          <img src={icon7} width="81px" />
           <h2>Cloud Managed Services</h2>
           <p>
             Product design and development <br />
