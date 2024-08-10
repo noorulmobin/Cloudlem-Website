@@ -3,7 +3,7 @@ import React from "react";
 const Contact = () => {
   const handleClick = () => {
     window.open(
-      "https://www.https://www.linkedin.com/company/cloudlem/.com",
+      "https://www.linkedin.com/company/cloudlem?originalSubdomain=pk",
       "_blank"
     );
   };
@@ -12,6 +12,7 @@ const Contact = () => {
       <button onClick={handleClick}>contact us</button>
     </div>
   );
+  s;
 };
 
 export default Contact;
